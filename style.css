@@ -89,7 +89,7 @@ display: table-cell;
 vertical-align: middle;
 }
 
-p {
+.blurple {
   background-color: #7289DA;
   color: #7289DA;
 }
