@@ -88,3 +88,8 @@ body {
 display: table-cell;
 vertical-align: middle;
 }
+
+h1 {
+  background-color: #7289DA;
+  color: #7289DA;
+}
