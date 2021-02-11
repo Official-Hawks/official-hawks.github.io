@@ -1,1 +1,2 @@
 ErrorDocument 404 /404.html
+Redirect 301 /URLS/Lights/Hawks https://hawkscord.dev/URLS/Lights/Hawks/index.html
