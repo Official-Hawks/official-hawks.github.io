@@ -1,0 +1,18 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest      # Docker-based github actions have to run on a linux environment
+    steps:
+      - name: HTML/CSS/JS Minifier
+        uses: docker://devatherock/minify-js:latest   # To use a specific release, use a docker tag like 1.0.2 instead of latest
+        with:
+          directory: 'src'      # Optional
+          output: 'minify/src'  # Optional
+          add_suffix: false     # Optional
