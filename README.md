@@ -1,4 +1,4 @@
-Please go to [https://github.com/hawkscord-dev/official-hawks.github.io](https://github.com/hawkscord-dev/official-hawks.github.io)
+Please go to [this repo](https://github.com/hawkscord-dev/website)
 
 
 # official-hawks.github.io
